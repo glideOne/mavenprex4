@@ -8,6 +8,7 @@ public class FrontendTests {
     @Test
     public void testSomeFrontEndStuff() {
 
+        //4.a
         DummyClassOne.methodFromCommonModuleOne();
 
     }

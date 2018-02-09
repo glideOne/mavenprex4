@@ -3,7 +3,7 @@
  */
 public class DummyClassTwo {
 
-    public void methodFromCommonModuleTwo() {
+    public static void methodFromCommonModuleTwo() {
         System.out.println("Method two from common module was called.");
     }
 
