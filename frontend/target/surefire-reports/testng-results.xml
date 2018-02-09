@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="TestsThatUseBackendStuff" duration-ms="25" started-at="2018-02-09T13:48:02Z" finished-at="2018-02-09T13:48:02Z">
+  <suite name="alltests" duration-ms="22" started-at="2018-02-09T14:51:58Z" finished-at="2018-02-09T14:51:58Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="25" started-at="2018-02-09T13:48:02Z" finished-at="2018-02-09T13:48:02Z">
+    <test name="alltests" duration-ms="22" started-at="2018-02-09T14:51:58Z" finished-at="2018-02-09T14:51:58Z">
       <class name="TestsThatUseBackendStuff">
-        <test-method status="PASS" signature="testThatUsesBackendStuff()[pri:0, instance:TestsThatUseBackendStuff@4411d970]" name="testThatUsesBackendStuff" duration-ms="4" started-at="2018-02-09T13:48:02Z" finished-at="2018-02-09T13:48:02Z">
+        <test-method status="PASS" signature="testThatUsesBackendStuff()[pri:0, instance:TestsThatUseBackendStuff@5ebec15]" name="testThatUsesBackendStuff" duration-ms="0" started-at="2018-02-09T14:51:58Z" finished-at="2018-02-09T14:51:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testThatUsesBackendStuff -->
       </class> <!-- TestsThatUseBackendStuff -->
-    </test> <!-- Command line test -->
-  </suite> <!-- TestsThatUseBackendStuff -->
+      <class name="FrontendTests">
+        <test-method status="PASS" signature="testSomeFrontEndStuff()[pri:0, instance:FrontendTests@3498ed]" name="testSomeFrontEndStuff" duration-ms="4" started-at="2018-02-09T14:51:58Z" finished-at="2018-02-09T14:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSomeFrontEndStuff -->
+      </class> <!-- FrontendTests -->
+    </test> <!-- alltests -->
+  </suite> <!-- alltests -->
 </testng-results>

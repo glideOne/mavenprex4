@@ -4,9 +4,11 @@
       <root url="jar://$MAVEN_REPOSITORY$/com/mavenex/mavenprex4-common/1.0-SNAPSHOT/mavenprex4-common-1.0-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/common/mavenprex4-common-1.0-SNAPSHOT-javadoc.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/com/mavenex/mavenprex4-common/1.0-SNAPSHOT/mavenprex4-common-1.0-SNAPSHOT-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
+      <root url="jar://$PROJECT_DIR$/common/mavenprex4-common-1.0-SNAPSHOT-sources.jar!/" />
       <root url="jar://$MAVEN_REPOSITORY$/com/mavenex/mavenprex4-common/1.0-SNAPSHOT/mavenprex4-common-1.0-SNAPSHOT-sources.jar!/" />
     </SOURCES>
   </library>

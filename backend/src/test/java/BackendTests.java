@@ -11,6 +11,12 @@ public class BackendTests {
         //4.b
         DummyClassTwo.methodFromCommonModuleTwo();
 
+
+        // mvn test -Dtest=com.mavenprex4.**.* -DfailIfNoTests=false
+        // mvn surefire:test
+
+
+
     }
 
 }

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="alltests">
+    <test name="alltests">
+        <classes>
+            <class name="FrontendTests"></class>
+            <class name="TestsThatUseBackendStuff"></class>
+        </classes>
+    </test>
+</suite>
